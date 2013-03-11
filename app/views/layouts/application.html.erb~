@@ -6,8 +6,8 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body style="background: #99CC66; color: #FFFFFF;">
-<!--Waar zet je de stylesheets?-->
+<body>
+
 <%= yield %>
 
 </body>
